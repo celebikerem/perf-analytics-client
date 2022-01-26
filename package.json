@@ -1,0 +1,16 @@
+{
+  "name": "perfanalytics",
+  "version": "1.0.0",
+  "description": "Simple library that measure the performance of the web page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "performance",
+    "analyze",
+    "analyzer"
+  ],
+  "author": "Kerem Çelebi",
+  "license": "ISC"
+}
