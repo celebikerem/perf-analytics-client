@@ -1,5 +1,7 @@
 const timingMetrics = window.performance.getEntriesByType('navigation')[0];
-const API_URL = process.env.API_URL || 'http://localhost:5000/metrics';
+const API_URL =
+  document.currentScript.getAttribute('api-url') ||
+  'https://perf-analyzer-api.herokuapp.com/metrics';
 
 const performanceMetrics = {
   metrics: {
