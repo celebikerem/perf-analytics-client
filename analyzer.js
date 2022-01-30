@@ -1,6 +1,6 @@
 const timingMetrics = window.performance.getEntriesByType('navigation')[0];
 const API_URL =
-  document.currentScript.getAttribute('api-url') ||
+  document.currentScript.getAttribute('data-apiurl') ||
   'https://localhost:5000/metrics';
 
 const performanceMetrics = {
